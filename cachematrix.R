@@ -14,8 +14,8 @@ makeCacheMatrix <- function(original.matrix = matrix()) {
   
   inverted.matrix <- NULL
   
-  set <- function(y) {
-    original.matrix <<- y
+  set <- function(ksp) {
+    original.matrix <<- ksp
     inverted.matrix <<- NULL
   }
   
